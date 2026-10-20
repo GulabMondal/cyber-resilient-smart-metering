@@ -52,4 +52,4 @@ The classifier is evaluated with a chronological split (training days 1–21 and
 
 ## Licence and citation
 
-MIT licence. Please cite the paper (see `CITATION.cff`).
+##########
