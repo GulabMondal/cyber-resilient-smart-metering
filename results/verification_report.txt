@@ -1,0 +1,38 @@
+Verification report — python verify.py, run 2026-10-20T04:15Z
+Regenerating dataset from seed 20261019 ...
+PASS  records: got 4147200, published 4147200
+PASS  feature matrix SHA-256: got '38535a477f00a009b86ec1f1bf69f26c61b896018c235189b72aa7323f4eebb2', published '38535a477f00a009b86ec1f1bf69f26c61b896018c235189b72aa7323f4eebb2'
+PASS  label vector SHA-256: got '21f9d88c5f7e6c8e677f4b065a4032e1cca76675c00af43023018e21e4bd3b40', published '21f9d88c5f7e6c8e677f4b065a4032e1cca76675c00af43023018e21e4bd3b40'
+PASS  RF chronological accuracy: got 0.9522352430555555, published 0.9522352430555555
+PASS  RF chronological macro-F1: got 0.8640895714075155, published 0.8640895714075155
+PASS  daily energy reduction %: got np.float64(14.080209020350775), published 14.080209020350775
+PASS  idle energy reduction %: got np.float64(61.404351521998954), published 61.404351521998954
+PASS  billed max demand, baseline (kVA): got np.float64(235.54358528153972), published 235.54358528153972
+PASS  billed max demand, optimised (kVA): got np.float64(188.86181978810993), published 188.86181978810993
+PASS  power factor, optimised: got np.float64(0.9456026255425518), published 0.9456026255425518
+PASS  Welch t: got np.float64(16.876233970772088), published 16.876233970772084
+PASS  gross annual saving (Rs): got np.float64(799735.3457524689), published 799735.3457524688
+PASS  payback (months): got np.float64(28.354303405775156), published 28.35430340577516
+PASS  5-year NPV (Rs): got np.float64(1165727.3438588968), published 1165727.3438588963
+PASS  accuracy from confusion matrix: got np.float64(0.9522352430555555), published 0.9522352430555555
+PASS  test windows in confusion matrix: got 92160.0, published 92160.0
+PASS  recall class 0 from confusion matrix: got np.float64(0.9746085028409528), published 0.9746085028409528
+PASS  precision class 0 from confusion matrix: got np.float64(0.9814544890680725), published 0.9814544890680725
+PASS  recall class 1 from confusion matrix: got np.float64(0.9887663398692811), published 0.9887663398692811
+PASS  precision class 1 from confusion matrix: got np.float64(0.7272044464473486), published 0.7272044464473486
+PASS  recall class 2 from confusion matrix: got np.float64(0.9237861094038107), published 0.9237861094038107
+PASS  precision class 2 from confusion matrix: got np.float64(0.9524714828897338), published 0.9524714828897338
+PASS  recall class 3 from confusion matrix: got np.float64(0.9503961648578467), published 0.9503961648578467
+PASS  precision class 3 from confusion matrix: got np.float64(0.9742014742014742), published 0.9742014742014742
+PASS  recall class 4 from confusion matrix: got np.float64(0.7128712871287128), published 0.7128712871287128
+PASS  precision class 4 from confusion matrix: got np.float64(0.813717848791894), published 0.813717848791894
+PASS  recall class 5 from confusion matrix: got np.float64(0.640203932993445), published 0.640203932993445
+PASS  precision class 5 from confusion matrix: got np.float64(0.7929634641407307), published 0.7929634641407307
+PASS  record classes sum to total: got 4147200.0, published 4147200.0
+PASS  window classes sum to total: got 345600.0, published 345600.0
+PASS  test class counts sum: got 92160.0, published 92160.0
+INFO  one-minute CV of producing machines: 12.3-13.8% (paper: 12-14%)
+INFO  daily CV per machine: 6.0-7.5% (paper: 6-8%)
+INFO  daily CV of plant total: 3.08% (paper: 3.1%)
+
+ALL CHECKS PASSED
