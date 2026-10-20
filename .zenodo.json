@@ -1,0 +1,15 @@
+{
+  "title": "Cyber-resilient smart energy metering: simulator, dataset and analysis pipeline",
+  "upload_type": "software",
+  "license": "MIT",
+  "related_identifiers": [{"identifier": "https://github.com/GulabMondal/cyber-resilient-smart-metering", "relation": "isSupplementTo", "scheme": "url"}],
+  "keywords": ["smart metering", "IIoT", "false data injection", "HMAC", "energy efficiency", "ISO 50001", "IEC 62443"],
+  "creators": [
+    {"name": "Mondal, Gulab Kumar", "affiliation": "JIS University"},
+    {"name": "Singh, Dharampal", "affiliation": "JIS University"},
+    {"name": "Neogi, Biswarup", "affiliation": "Hazi A.K. Khan College"},
+    {"name": "Ojha, Sanjeev Kumar", "affiliation": "Manipal University Jaipur"},
+    {"name": "Saurabh, Raman", "affiliation": "Amity School of Engineering and Technology"},
+    {"name": "Das, Arijit", "affiliation": "JIS College of Engineering"}
+  ]
+}

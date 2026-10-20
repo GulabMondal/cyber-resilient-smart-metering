@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the paper below."
+title: "Cyber-resilient smart energy metering: simulator, dataset and analysis pipeline"
+authors:
+  - family-names: Mondal
+    given-names: Gulab Kumar
+  - family-names: Singh
+    given-names: Dharampal
+  - family-names: Neogi
+    given-names: Biswarup
+  - family-names: Ojha
+    given-names: Sanjeev Kumar
+  - family-names: Saurabh
+    given-names: Raman
+  - family-names: Das
+    given-names: Arijit
+license: MIT
+repository-code: "https://github.com/GulabMondal/cyber-resilient-smart-metering"
+preferred-citation:
+  type: article
+  title: "A Cyber-Resilient AI-Enabled Smart Energy Metering Framework for Industrial Energy Saving, Load Optimization, and Trustworthy Energy Data Analytics"
+  journal: "Discover Internet of Things"
+  authors:
+    - family-names: Mondal
+      given-names: Gulab Kumar
+    - family-names: Singh
+      given-names: Dharampal
+    - family-names: Neogi
+      given-names: Biswarup
+    - family-names: Ojha
+      given-names: Sanjeev Kumar
+    - family-names: Saurabh
+      given-names: Raman
+    - family-names: Das
+      given-names: Arijit
